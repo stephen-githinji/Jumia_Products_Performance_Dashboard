@@ -36,13 +36,12 @@ The analytical process involved 3 main steps:
 Once the raw data has been uploaded to excel, [__power query__](https://support.microsoft.com/en-us/excel/about-power-query-in-excel) was used to carry out the data cleaning and transformations. It can be accessed by navigating to `Data > Get & Transform Data > From table/range`.<br>
 <figure>
 <img src="get_and_transform.png"/>
-<figcaption>Get & Transform data<figcaption>
-</figure>
+<figcaption><i>Get & Transform data<i/><figcaption>
+</figure><br/>
 
 <figure>
-<img src="power_query_window.png"/>
-<figcaption> power query window</figcaption>
-</figure>
+<img src="power_query_window.png"/><figcaption><i> power query window<i/></figcaption>
+</figure><br/>
 
 Within power query the following transformations were carried out:
 1. Handling of duplicate and missing values
@@ -51,9 +50,8 @@ Within power query the following transformations were carried out:
 
 The outcome is an excel table containing all the changes made from power query.
 <figure>
-<img src="transformed_table.png">
-<figcaption>Transformed table</figcaption>
-</figure>
+<img src="transformed_table.png"><figcaption><i>Transformed table<i/></figcaption>
+</figure><br/>
 
 Once all the transformation were completed and validated, the steps were logged into a table inside the [cleaning_log worksheet](./Excel_jumia_dataset.xlsx).
 ### Descriptive and correlation analysis
@@ -91,9 +89,8 @@ The scatter plots that were created in the relationship analysis section above, 
 #### Slicers
 The slicers are filtering tools based on several meaningful categories. the categories used to create the slicers are: ratings, price, engagement, and discount.
 <figure>
-<img src = "dashboard.png">
-<figcaption>Final dashboard</figcaption>
-</figure>
+<img src = "dashboard.png"><figcaption><i>Final dashboard<i/></figcaption>
+</figure><br/>
 
 ## 5. Findings and Recommendations
 ### Findings
